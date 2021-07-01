@@ -3,6 +3,7 @@ const fakeButton = document.getElementById("picture");
 const image = document.getElementById("photo");
 const name1 = document.getElementById("name-input");
 const user1 = document.getElementById("user-input");
+const text = document.getElementById("tweet").innerText;
 
 fakeButton.addEventListener("click", function() {
     realButton.click()
