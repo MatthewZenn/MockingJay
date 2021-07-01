@@ -1,0 +1,22 @@
+{
+  "name": "mockingjay",
+  "version": "1.0.0",
+  "description": "twitter post generator",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MatthewZenn/MockingJay.git"
+  },
+  "author": "Matthew Zenn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MatthewZenn/MockingJay/issues"
+  },
+  "homepage": "https://github.com/MatthewZenn/MockingJay#readme",
+  "dependencies": {
+    "electron": "^13.1.4"
+  }
+}
