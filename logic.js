@@ -3,7 +3,6 @@ const fakeButton = document.getElementById("picture");
 const image = document.getElementById("photo");
 const name1 = document.getElementById("name-input");
 const user1 = document.getElementById("user-input");
-const box = document.getElementById("checkbox");
 
 fakeButton.addEventListener("click", function() {
     realButton.click()
@@ -35,8 +34,9 @@ function printresult() {
 }
 
 function verify() {
-    if (box.checked == true) {
-        document.getElementById("badge").style.display = "hidden";
+    var box = document.getElementById("checkbox");
+    if (!box.checked) {
+        document.getElementById("badge").style.display = "none";
     }
     else {
         document.getElementById("badge").style.display = "block";

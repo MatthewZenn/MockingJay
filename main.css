@@ -80,7 +80,9 @@ header {
 
 #photo {
     width: 60px;
-    clip-path: circle(60px at center);
+    height: 60px;
+    object-fit: cover;
+    clip-path: circle(25px at center);
 
 }
 
