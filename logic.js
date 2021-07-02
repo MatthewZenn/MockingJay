@@ -22,8 +22,14 @@ realButton.addEventListener("change", function() {
 });
 
 function update() {
+    var text = document.getElementById("tweet").value;
+    var textString = text.toString()
     document.getElementById("name").innerHTML = name1.value;
     document.getElementById("username").innerHTML = ' @'+user1.value;
+    var syntax = textString.split(" ");
+    for (let i = 0; i < syntax.length; i++) {
+        console.log(syntax[i].startsWith("#"));
+    }
 }
 
 function printresult() {
