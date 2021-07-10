@@ -33,7 +33,9 @@ function update() {
 }
 
 function printresult() {
-    html2canvas(document.querySelector("#result")).then(canvas => {
+    html2canvas(document.querySelector("#result"), {
+        allowTaint: true,
+    }).then(canvas => {
         document.body.appendChild(canvas).style.visibility = "hidden";
         Canvas2Image.saveAsPNG(canvas);
     });

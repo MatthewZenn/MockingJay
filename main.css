@@ -251,3 +251,14 @@ label {
     color: white;
     top: 50px;
 }
+
+@font-face {
+    font-family: 'FontAwesome';
+    src: url('../dev-assets/fontawesome-webfont.eot');
+    src: url('../dev-assets/fontawesome-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../dev-assets/fontawesome-webfont.woff') format('woff'),
+    url('../dev-assets/fontawesome-webfont.ttf') format('truetype'),
+    url('../dev-assets/fontawesome-webfont.svg#fontawesomeregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    }
