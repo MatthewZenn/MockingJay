@@ -22,10 +22,12 @@ realButton.addEventListener("change", function() {
 });
 
 function update() {
+var now = new Date();
+var Month = new Array("January","February","March","April","May","June","July","August","September","October","November","December");
     var text = document.getElementById("tweet").value;
     var textString = text.toString()
     document.getElementById("name").innerHTML = name1.value;
-    document.getElementById("username").innerHTML = ' @'+user1.value;
+    document.getElementById("username").innerHTML = ' @'+user1.value + " \u0387 "+Month[now.getMonth()]+" "+now.getDate();
     var syntax = textString.split(" ");
     for (let i = 0; i < syntax.length; i++) {
         console.log(syntax[i].startsWith("#"));
