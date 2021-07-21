@@ -7,4 +7,4 @@ Twitter post generator
 # Features:
 - customize profile and username
 - full control over size of tweet
-- makes great looking scrrenshots
+- makes great looking screenshots
