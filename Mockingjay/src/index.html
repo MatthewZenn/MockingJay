@@ -1,45 +1,45 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="main.css">
-        <script src="https://kit.fontawesome.com/d15157182d.js" crossorigin="anonymous"></script>
-    </head>
-    <body>
-        <header>
-        </header>
-        <input type="checkbox" id="checkbox" checked onclick="verify()"><label for="checkox">Verified</label>
-        <div id="result" class="window">
-            <div class="profile">
-                <img id="photo" src="Static/profile.png">
-                <p id="name">Name</p>
-                <img id="badge" src="Static/Verify.png">
-                <p id="username">@Username</p>
-            </div>
-            <textarea id="tweet" placeholder="What's happening?" cols="50" rows="10" maxlength="1000"></textarea>
-            <div class="reactions">
-                <i id="icons" class="far fa-comment"></i>
-                <i id="icons" class="fas fa-retweet"></i>
-                <i id="icons" class="far fa-heart"></i>
-                <i id="icons" class="far fa-bookmark"></i>
-            </div>
-        </div>
-        <input type="file" id="image">
-        <div class="controls">
-            <input type="text" id="name-input" placeholder="Name">
-            <input type="text" id="user-input" placeholder="Username">
-            <button id="picture"><i class="fab fa-galactic-republic"></i> Select Profile</button>
-            <button id="update" onclick="update()"><i class="fab fa-jedi-order"></i> Update</button>
-            <button id="refresh" onclick="window.location.reload(false)"><i class="fab fa-phoenix-squadron"></i> Reload</button>
-            <button id="download" onclick="printresult()"><i class="fab fa-mandalorian"></i> Save</button>
-        </div>
-        <p class="claim">2021 Matthew Zenn || V-1.0</p>
-        <script src="html2canvas.js"></script>
-        <script src="canvas2image.js"></script>
-        <script src="logic.js" async="false" await></script>
-    </body>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="main.css">
+    <script src="https://kit.fontawesome.com/d15157182d.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <header>
+    </header>
+    <input type="checkbox" id="checkbox" checked onclick="verify()"><label for="checkox">Verified</label>
+    <div id="result" class="window">
+      <div class="profile">
+        <img id="photo" src="Static/profile.png">
+        <p id="name">Name</p>
+        <img id="badge" src="Static/Verify.png">
+        <p id="username">@Username</p>
+      </div>
+      <textarea id="tweet" placeholder="What's happening?" cols="50" rows="10" maxlength="1000"></textarea>
+      <div class="reactions">
+        <i id="icons" class="far fa-comment"></i>
+        <i id="icons" class="fas fa-retweet"></i>
+        <i id="icons" class="far fa-heart"></i>
+        <i id="icons" class="far fa-bookmark"></i>
+      </div>
+    </div>
+    <input type="file" id="image">
+    <div class="controls">
+      <input type="text" id="name-input" placeholder="Name">
+      <input type="text" id="user-input" placeholder="Username">
+      <button id="picture"><i class="fab fa-galactic-republic"></i> Select Profile</button>
+      <button id="update" onclick="update()"><i class="fab fa-jedi-order"></i> Update</button>
+      <button id="refresh" onclick="window.location.reload(false)"><i class="fab fa-phoenix-squadron"></i> Reload</button>
+      <button id="download" onclick="printresult()"><i class="fab fa-mandalorian"></i> Save</button>
+    </div>
+    <p class="claim">2021 Matthew Zenn || V-1.0</p>
+    <script src="html2canvas.js"></script>
+    <script src="canvas2image.js"></script>
+    <script src="logic.js" async="false" await></script>
+  </body>
 </html>
